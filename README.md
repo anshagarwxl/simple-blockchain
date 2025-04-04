@@ -25,3 +25,27 @@ Nonce value
 Uses SHA-256 for hashing transactions.
 
 Demonstrates how blocks are linked together using cryptographic hashes.
+
+
+How to Compile and Run ⚡
+
+Requirements 📌
+
+C++ compiler (g++)
+
+OpenSSL installed on your system
+
+Steps 🛠️
+
+Install OpenSSL (if not installed):
+
+brew install openssl   # For macOS
+sudo apt install libssl-dev   # For Linux
+
+Compile the code:
+
+g++ main.cpp sha256.cpp -o blockchain -lssl -lcrypto
+
+Run the program:
+
+./blockchain
