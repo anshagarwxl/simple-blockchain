@@ -49,3 +49,8 @@ g++ main.cpp sha256.cpp -o blockchain -lssl -lcrypto
 Run the program:
 
 ./blockchain
+
+
+
+<img width="1157" alt="image" src="https://github.com/user-attachments/assets/d348f3d5-0508-4f3c-aa3f-6bd0d7de95f7" />
+
